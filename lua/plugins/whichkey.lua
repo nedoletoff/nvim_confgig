@@ -10,7 +10,7 @@ wk.register({
 		h = {"Find Help"},
 	},
 
-	g = {
+	gg = {
 		name = "Git",
 		b = "Open Branches",
 		c = "Open Commits",
@@ -26,7 +26,7 @@ wk.register({
         k = "Hover",
     },
 
-    t = {
+    tt = {
         name = "NvimTree",
         t = "Tree Toggle",
         f = "Tree Focus",

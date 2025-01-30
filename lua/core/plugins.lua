@@ -163,5 +163,21 @@ require("lazy").setup({
 
             })
         end,
+    },
+
+    -- Go плагины
+    {
+		"olexsmir/gopher.nvim",
+		config = function()
+			require('plugins.gopher')
+		end,
+    },
+
+    -- Иконки для расширений файлов
+    {
+		'kyazdani42/nvim-web-devicons',
+		config = function()
+			require('nvim-web-devicons').setup({ default = true; })
+      end,
     }
 })
